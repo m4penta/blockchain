@@ -1,0 +1,46 @@
+Để có thể chạy dự án của bạn, bạn cần thực hiện một số bước cơ bản:
+
+Cài đặt Python:
+Đảm bảo bạn đã cài đặt Python trên máy tính của mình. Bạn có thể tải phiên bản Python mới nhất từ trang web chính thức của Python: https://www.python.org/
+
+Tạo môi trường ảo (tùy chọn):
+Nếu bạn muốn cách ly dependencies của dự án, bạn có thể tạo một môi trường ảo. Trong thư mục chứa dự án, mở terminal và chạy lệnh:
+
+bash
+Copy code
+python -m venv venv
+Sau đó, kích hoạt môi trường ảo:
+
+Trên Windows:
+
+bash
+Copy code
+venv\Scripts\activate
+Trên Linux hoặc MacOS:
+
+bash
+Copy code
+source venv/bin/activate
+Cài đặt các thư viện từ requirements.txt:
+Trong môi trường ảo đã kích hoạt, chạy lệnh sau để cài đặt các thư viện cần thiết từ tệp requirements.txt:
+
+bash
+Copy code
+pip install -r requirements.txt
+Chạy ứng dụng:
+Bây giờ, bạn có thể chạy ứng dụng bằng cách sử dụng tệp run.py. Trong terminal, chạy lệnh:
+
+bash
+Copy code
+python run.py
+Điều này sẽ khởi chạy ứng dụng Flask của bạn, và bạn sẽ có thể truy cập nó thông qua trình duyệt web tại http://localhost:5000/.
+
+Chạy bài kiểm tra (tùy chọn):
+Nếu bạn muốn chạy các bài kiểm tra, bạn có thể chạy lệnh sau trong terminal:
+
+bash
+Copy code
+python -m unittest discover tests
+Điều này sẽ chạy tất cả các bài kiểm tra trong thư mục tests/.
+
+Với các bước này, bạn sẽ có thể chạy và thử nghiệm dự án blockchain của mình. Đảm bảo rằng bạn đang chạy ứng dụng trong môi trường ảo để tránh xung đột với các phiên bản thư viện trên hệ thống toàn cục của bạn.

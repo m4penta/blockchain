@@ -1,0 +1,16 @@
+blockchain_project/
+│
+├── app/
+│   ├── __init__.py
+│   ├── blockchain.py
+│   └── views.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_blockchain.py
+│   └── test_views.py
+│
+├── venv/  (Virtual environment - tùy chọn)
+│
+├── requirements.txt
+└── run.py

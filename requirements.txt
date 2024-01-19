@@ -1,0 +1,7 @@
+Flask==2.1.1
+requests==2.26.0
+cryptography==36.0.0
+cryptography==36.0.0
+pycryptodome==3.11.0
+secp256k1==0.13.2
+base58==2.1.0
